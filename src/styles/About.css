@@ -1,0 +1,47 @@
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15rem;
+}
+
+.about-heading {
+  text-align: center;
+}
+
+.about-heading h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+
+}
+
+.about-details p {
+  font-size: 1rem;
+  margin-bottom: 5rem;
+  width: 30rem;
+}
+
+.profile-img {
+  margin-right: 1rem;
+}
+
+
+@media (max-width:1000px) {
+  .about .container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-img {
+    margin-left: 4rem;
+  }
+
+  .about-details p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+    width: 30rem;
+  }
+}
+

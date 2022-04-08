@@ -1,0 +1,25 @@
+.contact-types {
+  list-style: none;
+}
+
+.contact-types img {
+  width: 3rem;
+}
+
+.contact-types {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.contact-types img {
+  transition: transform 0.5s ease;
+}
+.contact-types img:hover{
+  transform: scale(1.5);
+}
+
+
+
+

@@ -1,0 +1,66 @@
+.projects-heading {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  
+}
+
+.projects-heading h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+
+}
+
+.project-description h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  grid-auto-rows: auto;
+  height: auto;
+  
+}
+
+.project-item {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border: 3px solid transparent;
+  border-color: #999999;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 30rem;
+  text-align: center;
+  
+}
+
+.project-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width:1000px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    grid-auto-rows: auto;
+    height: auto;
+    
+  }
+}
+
+.project-item {
+  transition: transform 0.5s ease;
+}
+.project-item:hover{
+  transform: scale(1.2);
+}
