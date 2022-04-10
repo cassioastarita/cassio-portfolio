@@ -6,7 +6,7 @@ function Skills() {
     <section className="skills" id="skills">
       <div className="skills">
         <div className="skills-heading">
-          <h1>&lt;h1&gt;Skills&lt;h1&gt;</h1>
+          <h1>&lt;h1&gt;Skills&lt;/h1&gt;</h1>
           <p>Some of my skills: JavaScript, Ruby, React, HTML, CSS, Node.js. </p>
           <p>SQLite, Postgresql, API integration, Ajax and Axios requests.</p>
           <p>Deployment: GitHub and Heroku.</p>

@@ -6,7 +6,7 @@ function Home() {
     <section className="home" id="home">
       <div className="home">
         <div className="home-heading">
-          <h3>&lt;h3&gt;Hello World!&lt;h3&gt;</h3>
+          <h3>&lt;h3&gt;Hello World!&lt;/h3&gt;</h3>
           <h1>I'm Cassio</h1>
           <h3>Junior Full-stack Developer</h3>
         </div>

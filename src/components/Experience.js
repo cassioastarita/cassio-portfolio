@@ -5,7 +5,7 @@ function Experience() {
     <section className="experience" id="experience">
       <div className="experience-container">
         <div className="experience-heading">
-          <h1>&lt;h1&gt;Work Experience&lt;h1&gt;</h1>
+          <h1>&lt;h1&gt;Work Experience&lt;/h1&gt;</h1>
         </div>
         <div className="experience">
           <ul className="experience-all">

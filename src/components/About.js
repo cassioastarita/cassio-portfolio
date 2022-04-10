@@ -11,7 +11,7 @@ function About() {
         </div>
         <div className="about-details">
           <div className="about-heading">
-            <h1>&lt;h1&gt;About&lt;h1&gt;</h1>
+            <h1>&lt;h1&gt;About&lt;/h1&gt;</h1>
           </div>
             <p>
               My name is Cassio, and when I was a kid, my dream job was to be a Lego Builder. It might sound funny, but making colorful little pieces become meaningful objects was a tremendous fulfilment for me. 

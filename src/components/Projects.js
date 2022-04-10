@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="projects-heading">
-        <h1>&lt;h1&gt;Projects&lt;h1&gt;</h1>
+        <h1>&lt;h1&gt;Projects&lt;/h1&gt;</h1>
       </div>
       <div className="projects-container">
         <div className="project-item">

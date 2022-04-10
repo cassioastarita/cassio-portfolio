@@ -13,6 +13,8 @@
   color: #999999;
 }
 
-
-
-
+@media (max-width:1000px) {
+  .home-heading h1 {
+    font-size: 3rem;
+  }
+}
